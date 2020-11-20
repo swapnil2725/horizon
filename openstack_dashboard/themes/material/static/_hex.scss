@@ -1,0 +1,424 @@
+    #hex-absolute-container {
+      position: fixed;
+      right: 0px;
+      bottom: 0px;
+      z-index: 0; }
+
+      #hex-relative-container {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        overflow: hidden;
+        width: 560px;
+        height: 220px; }
+
+        .front, .back {
+          margin: 0px; }
+
+          #hex-lg-1 {
+            top: 136px;
+            left: 3px;
+            z-index: 1; }
+
+            #hex-lg-2 {
+              top: 32px;
+              left: 188px;
+              z-index: 2; }
+
+              #hex-lg-3 {
+                top: 136px;
+                left: 372px;
+                z-index: 3; }
+
+                #hex-lg-4 {
+                  top: 86px;
+                  left: 465px;
+                  z-index: 4; }
+
+                  #hex-sm-1 {
+                    top: 161px;
+                    left: 97px;
+                    z-index: 5; }
+
+                    #hex-sm-2 {
+                      top: 136px;
+                      left: 142px;
+                      z-index: 6; }
+
+                      #hex-sm-3 {
+                        top: 30px;
+                        left: 142px;
+                        z-index: 7; }
+
+                        #hex-sm-4 {
+                          top: 4px;
+                          left: 188px;
+                          z-index: 8; }
+
+                          #hex-sm-5 {
+                            top: 30px;
+                            left: 328px;
+                            z-index: 9; }
+
+                            #hex-sm-6 {
+                              top: 136px;
+                              left: 328px;
+                              z-index: 10; }
+
+                              #hex-sm-7 {
+                                top: 84px;
+                                left: 420px;
+                                z-index: 11; }
+
+                                #hex-lg-1.flipped > .hex-elements {
+                                  animation: hex-cascade-in linear 0.6s 0s both;
+                                  -o-animation: hex-cascade-in linear 0.6s 0s both;
+                                  -moz-animation: hex-cascade-in linear 0.6s 0s both;
+                                  -webkit-animation: hex-cascade-in linear 0.6s 0s both; }
+
+                                  #hex-lg-2.flipped > .hex-elements {
+                                    animation: hex-cascade-in linear 0.6s 0.25s both;
+                                    -o-animation: hex-cascade-in linear 0.6s 0.25s both;
+                                    -moz-animation: hex-cascade-in linear 0.6s 0.25s both;
+                                    -webkit-animation: hex-cascade-in linear 0.6s 0.25s both; }
+
+                                    #hex-lg-3.flipped > .hex-elements {
+                                      animation: hex-cascade-in linear 0.6s 0.4s both;
+                                      -o-animation: hex-cascade-in linear 0.6s 0.4s both;
+                                      -moz-animation: hex-cascade-in linear 0.6s 0.4s both;
+                                      -webkit-animation: hex-cascade-in linear 0.6s 0.4s both; }
+
+                                      #hex-lg-4.flipped > .hex-elements {
+                                        animation: hex-cascade-in linear 0.6s 0.5s both;
+                                        -o-animation: hex-cascade-in linear 0.6s 0.5s both;
+                                        -moz-animation: hex-cascade-in linear 0.6s 0.5s both;
+                                        -webkit-animation: hex-cascade-in linear 0.6s 0.5s both; }
+
+                                        #hex-sm-1.flipped > .hex-elements {
+                                          animation: hex-cascade-in linear 0.6s 0.05s both;
+                                          -o-animation: hex-cascade-in linear 0.6s 0.05s both;
+                                          -moz-animation: hex-cascade-in linear 0.6s 0.05s both;
+                                          -webkit-animation: hex-cascade-in linear 0.6s 0.05s both; }
+
+                                          #hex-sm-2.flipped > .hex-elements {
+                                            animation: hex-cascade-in linear 0.6s 0.2s both;
+                                            -o-animation: hex-cascade-in linear 0.6s 0.2s both;
+                                            -moz-animation: hex-cascade-in linear 0.6s 0.2s both;
+                                            -webkit-animation: hex-cascade-in linear 0.6s 0.2s both; }
+
+                                            #hex-sm-3.flipped > .hex-elements {
+                                              animation: hex-cascade-in linear 0.6s 0.1s both;
+                                              -o-animation: hex-cascade-in linear 0.6s 0.1s both;
+                                              -moz-animation: hex-cascade-in linear 0.6s 0.1s both;
+                                              -webkit-animation: hex-cascade-in linear 0.6s 0.1s both; }
+
+                                              #hex-sm-4.flipped > .hex-elements {
+                                                animation: hex-cascade-in linear 0.6s 0.15s both;
+                                                -o-animation: hex-cascade-in linear 0.6s 0.15s both;
+                                                -moz-animation: hex-cascade-in linear 0.6s 0.15s both;
+                                                -webkit-animation: hex-cascade-in linear 0.6s 0.15s both; }
+
+                                                #hex-sm-5.flipped > .hex-elements {
+                                                  animation: hex-cascade-in linear 0.6s 0.3s both;
+                                                  -o-animation: hex-cascade-in linear 0.6s 0.3s both;
+                                                  -moz-animation: hex-cascade-in linear 0.6s 0.3s both;
+                                                  -webkit-animation: hex-cascade-in linear 0.6s 0.3s both; }
+
+                                                  #hex-sm-6.flipped > .hex-elements {
+                                                    animation: hex-cascade-in linear 0.6s 0.35s both;
+                                                    -o-animation: hex-cascade-in linear 0.6s 0.35s both;
+                                                    -moz-animation: hex-cascade-in linear 0.6s 0.35s both;
+                                                    -webkit-animation: hex-cascade-in linear 0.6s 0.35s both; }
+
+                                                    #hex-sm-7.flipped > .hex-elements {
+                                                      animation: hex-cascade-in linear 0.6s 0.45s both;
+                                                      -o-animation: hex-cascade-in linear 0.6s 0.45s both;
+                                                      -moz-animation: hex-cascade-in linear 0.6s 0.45s both;
+                                                      -webkit-animation: hex-cascade-in linear 0.6s 0.45s both; }
+
+                                                      #hex-lg-1 > .hex-elements {
+                                                        animation: hex-cascade-out linear 0.6s 0s both;
+                                                        -o-animation: hex-cascade-out linear 0.6s 0s both;
+                                                        -moz-animation: hex-cascade-out linear 0.6s 0s both;
+                                                        -webkit-animation: hex-cascade-out linear 0.6s 0s both; }
+
+                                                        #hex-lg-2 > .hex-elements {
+                                                          animation: hex-cascade-out linear 0.6s 0.25s both;
+                                                          -o-animation: hex-cascade-out linear 0.6s 0.25s both;
+                                                          -moz-animation: hex-cascade-out linear 0.6s 0.25s both;
+                                                          -webkit-animation: hex-cascade-out linear 0.6s 0.25s both; }
+
+                                                          #hex-lg-3 > .hex-elements {
+                                                            animation: hex-cascade-out linear 0.6s 0.4s both;
+                                                            -o-animation: hex-cascade-out linear 0.6s 0.4s both;
+                                                            -moz-animation: hex-cascade-out linear 0.6s 0.4s both;
+                                                            -webkit-animation: hex-cascade-out linear 0.6s 0.4s both; }
+
+                                                            #hex-lg-4 > .hex-elements {
+                                                              animation: hex-cascade-out linear 0.6s 0.5s both;
+                                                              -o-animation: hex-cascade-out linear 0.6s 0.5s both;
+                                                              -moz-animation: hex-cascade-out linear 0.6s 0.5s both;
+                                                              -webkit-animation: hex-cascade-out linear 0.6s 0.5s both; }
+
+                                                              #hex-sm-1 > .hex-elements {
+                                                                animation: hex-cascade-out linear 0.6s 0.05s both;
+                                                                -o-animation: hex-cascade-out linear 0.6s 0.05s both;
+                                                                -moz-animation: hex-cascade-out linear 0.6s 0.05s both;
+                                                                -webkit-animation: hex-cascade-out linear 0.6s 0.05s both; }
+
+                                                                #hex-sm-2 > .hex-elements {
+                                                                  animation: hex-cascade-out linear 0.6s 0.2s both;
+                                                                  -o-animation: hex-cascade-out linear 0.6s 0.2s both;
+                                                                  -moz-animation: hex-cascade-out linear 0.6s 0.2s both;
+                                                                  -webkit-animation: hex-cascade-out linear 0.6s 0.2s both; }
+
+                                                                  #hex-sm-3 > .hex-elements {
+                                                                    animation: hex-cascade-out linear 0.6s 0.1s both;
+                                                                    -o-animation: hex-cascade-out linear 0.6s 0.1s both;
+                                                                    -moz-animation: hex-cascade-out linear 0.6s 0.1s both;
+                                                                    -webkit-animation: hex-cascade-out linear 0.6s 0.1s both; }
+
+                                                                    #hex-sm-4 > .hex-elements {
+                                                                      animation: hex-cascade-out linear 0.6s 0.15s both;
+                                                                      -o-animation: hex-cascade-out linear 0.6s 0.15s both;
+                                                                      -moz-animation: hex-cascade-out linear 0.6s 0.15s both;
+                                                                      -webkit-animation: hex-cascade-out linear 0.6s 0.15s both; }
+
+                                                                      #hex-sm-5 > .hex-elements {
+                                                                        animation: hex-cascade-out linear 0.6s 0.3s both;
+                                                                        -o-animation: hex-cascade-out linear 0.6s 0.3s both;
+                                                                        -moz-animation: hex-cascade-out linear 0.6s 0.3s both;
+                                                                        -webkit-animation: hex-cascade-out linear 0.6s 0.3s both; }
+
+                                                                        #hex-sm-6 > .hex-elements {
+                                                                          animation: hex-cascade-out linear 0.6s 0.35s both;
+                                                                          -o-animation: hex-cascade-out linear 0.6s 0.35s both;
+                                                                          -moz-animation: hex-cascade-out linear 0.6s 0.35s both;
+                                                                          -webkit-animation: hex-cascade-out linear 0.6s 0.35s both; }
+
+                                                                          #hex-sm-7 > .hex-elements {
+                                                                            animation: hex-cascade-out linear 0.6s 0.45s both;
+                                                                            -o-animation: hex-cascade-out linear 0.6s 0.45s both;
+                                                                            -moz-animation: hex-cascade-out linear 0.6s 0.45s both;
+                                                                            -webkit-animation: hex-cascade-out linear 0.6s 0.45s both; }
+
+                                                                            .hexagon-lg {
+                                                                              width: 186px;
+                                                                              height: 208px;
+                                                                              position: absolute;
+                                                                              perspective: 800px;
+                                                                              -moz-perspective: 800px;
+                                                                              -webkit-perspective: 800px; }
+                                                                              .hexagon-lg .hex-elements {
+                                                                                width: 100%;
+                                                                                height: 100%;
+                                                                                position: absolute;
+                                                                                transform-style: preserve-3d;
+                                                                                -moz-transform-style: preserve-3d;
+                                                                                -webkit-transform-style: preserve-3d;
+                                                                                transform-origin: right center;
+                                                                                -o-transform-origin: right center;
+                                                                                -ms-transform-origin: right center;
+                                                                                -moz-transform-origin: right center;
+                                                                                -webkit-transform-origin: right center; }
+                                                                                .hexagon-lg .hex:before {
+                                                                                  content: " ";
+                                                                                  width: 0;
+                                                                                  height: 0;
+                                                                                  border-left: 93px solid transparent;
+                                                                                  border-right: 93px solid transparent;
+                                                                                  position: absolute;
+                                                                                  top: -51px; }
+                                                                                  .hexagon-lg .front .hex:before {
+                                                                                    border-bottom: 51px solid rgba(149, 152, 153, 0.4);
+                                                                                    transform: rotateY(0deg);
+                                                                                    -o-transform: rotateY(0deg);
+                                                                                    -ms-transform: rotateY(0deg);
+                                                                                    -moz-transform: rotateY(0deg) scale(0.9999);
+                                                                                    -webkit-transform: rotateY(0deg); }
+                                                                                    .hexagon-lg .front .hex {
+                                                                                      background-color: rgba(149, 152, 153, 0.4);
+                                                                                      transform: rotateY(0deg);
+                                                                                      -o-transform: rotateY(0deg);
+                                                                                      -ms-transform: rotateY(0deg);
+                                                                                      -moz-transform: rotateY(0deg) scale(0.9999);
+                                                                                      -webkit-transform: rotateY(0deg);
+                                                                                      }
+                                                                                      .hexagon-lg .front .hex:after {
+                                                                                        border-top: 51px solid rgba(149, 152, 153, 0.4);
+                                                                                        transform: rotateY(0deg);
+                                                                                        -o-transform: rotateY(0deg);
+                                                                                        -ms-transform: rotateY(0deg);
+                                                                                        -moz-transform: rotateY(0deg) scale(0.9999);
+                                                                                        -webkit-transform: rotateY(0deg); }
+                                                                              .hexagon-lg .back .hex:before {
+                                                                                border-bottom: 51px solid rgba(57, 137, 47, 0.45);
+                                                                                transform: rotateY(180deg);
+                                                                                -o-transform: rotateY(180deg);
+                                                                                -ms-transform: rotateY(180deg);
+                                                                                -moz-transform: rotateY(180deg) scale(0.9999);
+                                                                                -webkit-transform: rotateY(180deg); }
+                                                                                .hexagon-lg .back .hex {
+                                                                                  background-color: rgba(57, 137, 47, 0.45);
+                                                                                  transform: rotateY(180deg);
+                                                                                  -o-transform: rotateY(180deg);
+                                                                                  -ms-transform: rotateY(180deg);
+                                                                                  -moz-transform: rotateY(180deg) scale(0.9999);
+                                                                                  -webkit-transform: rotateY(180deg); }
+                                                                                  .hexagon-lg .back .hex:after {
+                                                                                    border-top: 51px solid rgba(57, 137, 47, 0.45);
+                                                                                    transform: rotateY(180deg);
+                                                                                    -o-transform: rotateY(180deg);
+                                                                                    -ms-transform: rotateY(180deg);
+                                                                                    -moz-transform: rotateY(180deg) scale(0.9999);
+                                                                                    -webkit-transform: rotateY(180deg); }
+                                                                              .hexagon-lg .hex {
+                                                                                margin-top: 51px;
+                                                                                width: 186px;
+                                                                                height: 105px;
+                                                                                position: absolute;
+                                                                                top: 0px;
+                                                                                left: 0px;
+                                                                                backface-visibility: hidden;
+                                                                                -moz-backface-visibility: hidden;
+                                                                                -webkit-backface-visibility: hidden; }
+                                                                                .hexagon-lg .hex:after {
+                                                                                  content: "";
+                                                                                  width: 0;
+                                                                                  position: absolute;
+                                                                                  bottom: -51px;
+                                                                                  border-left: 93px solid transparent;
+                                                                                  border-right: 93px solid transparent; }
+
+.hexagon-sm {
+  width: 92px;
+  height: 107px;
+  position: absolute;
+  perspective: 800px;
+  -moz-perspective: 800px;
+  -webkit-perspective: 800px; }
+  .hexagon-sm .hex-elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-origin: right center;
+    -o-transform-origin: right center;
+    -ms-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -webkit-transform-origin: right center; }
+    .hexagon-sm .hex:before {
+      content: " ";
+      width: 0;
+      height: 0;
+      border-left: 46px solid transparent;
+      border-right: 46px solid transparent;
+      position: absolute;
+      top: -26px; }
+      .hexagon-sm .front .hex:before {
+        border-bottom: 26px solid rgba(149, 152, 153, 0.4);
+        transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg) scale(0.9999);
+        -webkit-transform: rotateY(0deg); }
+        .hexagon-sm .front .hex {
+          background-color: rgba(149, 152, 153, 0.4);
+          transform: rotateY(0deg);
+          -o-transform: rotateY(0deg);
+          -ms-transform: rotateY(0deg);
+          -moz-transform: rotateY(0deg) scale(0.9999);
+          -webkit-transform: rotateY(0deg); }
+          .hexagon-sm .front .hex:after {
+            border-top: 26px solid rgba(149, 152, 153, 0.4);
+            transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg) scale(0.9999);
+            -webkit-transform: rotateY(0deg); }
+  .hexagon-sm .back .hex:before {
+    border-bottom: 26px solid rgba(57, 137, 47, 0.45);
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg) scale(0.9999);
+    -webkit-transform: rotateY(180deg); }
+    .hexagon-sm .back .hex {
+      background-color: rgba(57, 137, 47, 0.45);
+      transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg) scale(0.9999);
+      -webkit-transform: rotateY(180deg); }
+      .hexagon-sm .back .hex:after {
+        border-top: 26px solid rgba(57, 137, 47, 0.45);
+        transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg) scale(0.9999);
+        -webkit-transform: rotateY(180deg); }
+  .hexagon-sm .hex {
+    margin-top: 26px;
+    width: 92px;
+    height: 54px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; }
+    .hexagon-sm .hex:after {
+      content: "";
+      width: 0;
+      position: absolute;
+      bottom: -26px;
+      border-left: 46px solid transparent;
+      border-right: 46px solid transparent; }
+
+@media (max-width: 560px) {
+  #hex-absolute-container * {
+    display: none;   }
+}
+
+@keyframes hex-cascade-in {
+  100% {
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg) scale(0.9999);
+    -webkit-transform: rotateY(180deg);
+    transform: translateX(-100%) rotateY(-180deg);
+    -o-transform: translateX(-100%) rotateY(-180deg);
+    -ms-transform: translateX(-100%) rotateY(-180deg);
+    -moz-transform: translateX(-100%) rotateY(-180deg) scale(0.9999);
+    -webkit-transform: translateX(-100%) rotateY(-180deg);   }
+}
+
+@keyframes hex-cascade-out {
+  0% {
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg) scale(0.9999);
+    -webkit-transform: rotateY(180deg);
+    transform: translateX(-100%) rotateY(-180deg);
+    -o-transform: translateX(-100%) rotateY(-180deg);
+    -ms-transform: translateX(-100%) rotateY(-180deg);
+    -moz-transform: translateX(-100%) rotateY(-180deg) scale(0.9999);
+    -webkit-transform: translateX(-100%) rotateY(-180deg);   }
+    100% {
+      transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg) scale(0.9999);
+      -webkit-transform: rotateY(0deg);
+      transform: translateX(0%) rotateY(0deg);
+      -o-transform: translateX(0%) rotateY(0deg);
+      -ms-transform: translateX(0%) rotateY(0deg);
+      -moz-transform: translateX(0%) rotateY(0deg) scale(0.9999);
+      -webkit-transform: translateX(0%) rotateY(0deg);   }
+}
+
+

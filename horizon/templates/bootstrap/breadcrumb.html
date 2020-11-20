@@ -1,5 +1,6 @@
 {% spaceless %}
-  <ol class="breadcrumb">
+    <div class="page-breadcrumb">
+      <ol class="breadcrumb">
     {% for name, target in breadcrumb %}
       {% if forloop.last %}
         <li class="breadcrumb-item-truncate active">{{ name }}</li>
@@ -12,4 +13,12 @@
       {% endif %}
     {% endfor %}
   </ol>
+  <div class="breadcrumb__copyright">
+    <b> POWERED BY </b>
+    <a href="http://itera.io/" target="_blank">
+      <img src="/static/dashboard/img/Itera-new.gif">
+    </a>
+  </div>
+</div>
+
 {% endspaceless %}
