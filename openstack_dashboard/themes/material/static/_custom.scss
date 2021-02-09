@@ -449,3 +449,22 @@
     .progress-bar-success {
         background-color: #39892F;
     }
+    .chart-numbers {
+        fill: #212121;
+        font-size: 25px;
+    }
+
+    .a {
+        color: #ed7f20;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .modal-content {
+        position: static;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #999;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        outline: 0;
+    }
