@@ -472,4 +472,16 @@
         border-radius: 3px;
         outline: 0;
     }
+    body#splash{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background: -webkit-linear-gradient(-45deg,#6CBAA1,#697EFF,#00B4DB,#0083B0,#3e5ade);
+        background-size: 400% 400%;
+        animation: 20s;
+    }
+    html, body {
+        height: 100%;
+        overflow: auto;
+    }
     
