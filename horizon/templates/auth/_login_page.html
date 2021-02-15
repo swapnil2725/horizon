@@ -23,4 +23,153 @@
       </div>
     </div>
   </div>
+  <div id="hex-absolute-container">
+    <div id="hex-relative-container">
+      <div class="hexagon hexagon-lg flipped" id="hex-lg-1">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-lg flipped" id="hex-lg-2">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-lg flipped" id="hex-lg-3">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-lg flipped" id="hex-lg-4">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-1">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-2">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-3">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-4">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-5">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-6">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="hexagon hexagon-sm flipped" id="hex-sm-7">
+        <div class="hex-elements">
+          <figure class="front">
+            <div class="hex"></div>
+          </figure>
+          <figure class="back">
+            <div class="hex"></div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>  
+   
+    <script>
+      jQuery(document).ready(function($) { 
+    $('#loginBtn').hover(
+      function(){ $('.hexagon').addClass('flipped') },
+      function(){ $('.hexagon').removeClass('flipped') }
+    ) 
+        $('.hexagon').removeClass('flipped');
+      });
+    </script>
+  
+  <div class="cssload-preloader-container" style="display: none;">
+    <div class="cssload-preloader cssload-loading" style="display: none;">
+      <span class="cssload-slice"></span>
+      <span class="cssload-slice"></span>
+      <span class="cssload-slice"></span>
+      <span class="cssload-slice"></span>
+      <span class="cssload-slice"></span>
+      <span class="cssload-slice"></span>
+    </div>
+  </div>
+  
+  <script>
+    jQuery(document).ready(function($) {  
+      $(window).load(function() {
+        $('.cssload-preloader').hide();
+        $('.cssload-preloader-container').fadeOut('slow',function() { $(this).hide(); });
+      });
+      window.onbeforeunload=function() {
+        $('.cssload-preloader-container').delay(200).queue(function(next) { $(this).show(); next(); } );
+        $('.cssload-preloader').delay(200).queue(function(next) { $(this).show(); next(); });
+      };
+    });
+  </script>
+
 {% endblock %}

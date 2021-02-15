@@ -25,6 +25,7 @@
       {% include "horizon/_custom_head_js.html" %}
     {% endblock %}
     {% block ng_route_base %} {% endblock %}
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
   </head>
   <body id="{% block body_id %}{% endblock %}" ng-app='horizon.app' ng-strict-di>
     <noscript>
@@ -45,11 +46,11 @@
           <div class='container-fluid'>
             <div class="row">
               <div class="col-xs-12">
-                <div class="page-breadcrumb">
+                
                   {% block breadcrumb_nav %}
                     {% breadcrumb_nav %}
                   {% endblock %}
-                </div>
+                
 
                 {% block page_header %}
                   {% include "horizon/common/_page_header.html" with title=page_title %}

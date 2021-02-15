@@ -259,6 +259,20 @@ else:
         ADD_TEMPLATE_LOADERS
     )
 
+    POLICY_FILES = {
+    'orchestration': 'heat_policy.json',
+    'identity': 'keystone_policy.json',
+    'compute': 'nova_policy.json',
+    'volume': 'cinder_policy.json',
+    'image': 'glance_policy.json',
+    'network': 'neutron_policy.json',
+}
+
+    OPENSTACK_HEAT_STACK = {
+    'enable_user_pass': True,
+}
+
+
 # allow to drop settings snippets into a local_settings_dir
 LOCAL_SETTINGS_DIR_PATH = os.path.join(ROOT_PATH, "local", "local_settings.d")
 if os.path.exists(LOCAL_SETTINGS_DIR_PATH):
@@ -304,6 +318,15 @@ if STATIC_ROOT is None:
 
 if STATIC_URL is None:
     STATIC_URL = WEBROOT + 'static/'
+
+
+AVAILABLE_THEMES = [
+     (
+        'material',
+        pgettext_lazy("Google's Material Design style theme", "Material"),
+        'themes/material'
+    ),
+]
 
 AVAILABLE_THEMES, SELECTABLE_THEMES, DEFAULT_THEME = (
     theme_settings.get_available_themes(
