@@ -488,8 +488,7 @@
    background-position: 0% 50%;
   }
   }
-  .body.ng-scope{
-    webkit-font-smoothing: antialiased;
-    letter-spacing: 0.1px;
+  html, body:not(#splash) {
+    height: 100%;
     background: white;
-  }
+}
