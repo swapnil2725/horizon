@@ -29,24 +29,22 @@
   .hz-icon-required {
     display: none;
   }
-}
-body {
-  background: linear-gradient(-45deg,#6CBAA1,#697EFF,#00B4DB,#0083B0,#3e5ade);
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
-}
-html, body {
-  height: 100%;
-  overflow: auto;
-}
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
+  body {
+    background: linear-gradient(-45deg,#6CBAA1,#697EFF,#00B4DB,#0083B0,#3e5ade);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
   }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
   }
 }
+
