@@ -44,6 +44,8 @@
 
 .topologyBalloon {
   display: none;
+  margin-top: -95px;
+  overflow: auto;
   background: $body-bg;
   @include box-shadow(0px 1px 6px #777);
   position: absolute;
