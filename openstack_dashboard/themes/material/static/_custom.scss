@@ -1,13 +1,13 @@
 .btn-default:hover{
-background: #60BB46
+background:  #00b39b;
 }
 .btn-danger{
-background: #39892f
+background:  #00b39b;
 }
 .btn-primary{
-background: #39892f;
+background:  #00b39b;
 &:hover{
-background: #60BB46;
+background:  #00b39b;
 }
 &:active{
 background: #2093f5;
@@ -15,7 +15,7 @@ background: #2093f5;
 }
 
 .datepicker table tr td.day:hover, .datepicker table tr td.day.focused {
-    background: #60BB46;
+    background:  #00b39b;
     cursor: pointer;
     color: #4caf50;
 }
@@ -28,22 +28,22 @@ h4.panel-title{
     color: white
 }
 .panel, .help-panel > .well {
-    border: 20px #39892f;
+    border: 20px  #00b39b;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
    
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
-    background-color: #60BB46;
+    background-color:  #00b39b;
     color: white;
 }
 
 .dropdown-menu > li > a:focus {
-    background-color: #60BB46;
+    background-color:  #00b39b;
 }
 
-.panel-default > .panel-heading {background: #39892f;}
+.panel-default > .panel-heading {background:  #00b39b;}
 
 .login .login-title {
     text-align: center;
@@ -60,20 +60,20 @@ background: #ECF0F1;
 }
 
 .navbar-inverse .navbar-nav > .open > a:focus {
-      background-color: #39892F;
+      background-color:  #00b39b;
       color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #39892F;
+    background-color:  #00b39b;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #39892F;
+    background-color:  #00b39b;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #39892F;
+    color:  #00b39b;
 }
 
 .dropdown:hover .fa-circle {
@@ -85,12 +85,12 @@ background: #ECF0F1;
 }
 
 .alert-info {
-    background-color: #39892F;
+    background-color:  #00b39b;
 }
 
 
 #sidebar .openstack-dashboard > a:focus, #sidebar .openstack-panel > a:focus, #sidebar .nav-header > a:focus {
-    background-color: #60BB46;
+    background-color:  #00b39b;
     outline: 0;
 }
 
@@ -100,11 +100,11 @@ background: #ECF0F1;
 }
 
 .navbar-inverse .md-hamburger-layer:hover {
-    background: #39892F;
+    background:  #00b39b;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #39892F;
+    background-color:  #00b39b;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
@@ -448,7 +448,7 @@ color: #000000;
     font-size: 25px;
 }
 a {
-    color: #39892f;
+    color:  #00b39b;
     text-decoration: none;
     font-size: 15px;
 }
