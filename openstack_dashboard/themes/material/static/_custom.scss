@@ -443,3 +443,16 @@ color: #000000;
 ::placeholder{
 color: #000000;
 }
+.chart-numbers {
+    fill: #212121;
+    font-size: 25px;
+}
+a {
+    color: #39892f;
+    text-decoration: none;
+    font-size: 15px;
+}
+a:focus {
+    outline-offset: -2px;
+    outline: none;
+}
