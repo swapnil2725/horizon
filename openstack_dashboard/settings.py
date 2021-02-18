@@ -184,9 +184,26 @@ CSRF_FAILURE_VIEW = 'openstack_dashboard.views.csrf_failure'
 
 LANGUAGES = (
     ('en', 'English'),
-    
+    ('cs', 'Czech'),
+    ('de', 'German'),
+    ('en-au', 'Australian English'),
+    ('en-gb', 'British English'),
+    ('eo', 'Esperanto'),
+    ('es', 'Spanish'),
+    ('fr', 'French'),
+    ('id', 'Indonesian'),
+    ('it', 'Italian'),
+    ('ja', 'Japanese'),
+    ('ko', 'Korean (Korea)'),
+    ('pl', 'Polish'),
+    ('pt-br', 'Portuguese (Brazil)'),
+    ('ru', 'Russian'),
+    ('tr', 'Turkish'),
+    ('zh-cn', 'Simplified Chinese'),
+    ('zh-tw', 'Chinese (Taiwan)'),
 )
 LANGUAGE_CODE = 'en'
+LANGUAGE_DEFAULT = 'en'
 LANGUAGE_COOKIE_NAME = 'horizon_language'
 USE_I18N = True
 USE_L10N = True
