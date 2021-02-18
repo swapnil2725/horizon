@@ -184,10 +184,9 @@ CSRF_FAILURE_VIEW = 'openstack_dashboard.views.csrf_failure'
 
 LANGUAGES = (
     ('en', 'English'),
-   
+    
 )
 LANGUAGE_CODE = 'en'
-LANGUAGE
 LANGUAGE_COOKIE_NAME = 'horizon_language'
 USE_I18N = True
 USE_L10N = True
