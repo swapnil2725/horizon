@@ -456,8 +456,7 @@ a {
 a:focus {
     outline-offset: -2px;
     outline: none;
-}
-.messages .alert p:last-child {
-    margin-bottom: 0;
-    color:#00b39b;
+} 
+.alert-success {
+    background-color: #00b39b;
 }
