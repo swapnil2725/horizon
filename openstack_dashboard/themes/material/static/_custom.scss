@@ -58,7 +58,7 @@ h4.panel-title {
 
 .login .splash-logo {
     float: none;
-    width: 400px;
+    width: 320px;
 }
 
 .navbar-inverse {
@@ -491,4 +491,7 @@ a:focus {
 html,body:not(#splash) {
     height: 100%;
     background: white;
+}
+.alert-success {
+    background-color: #4246fb;
 }
