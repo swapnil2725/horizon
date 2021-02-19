@@ -25,6 +25,7 @@ from django.conf.urls import url
 from django.contrib.auth import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.views.generic import TemplateView
+from django.urls import reverse
 
 import horizon
 import horizon.base

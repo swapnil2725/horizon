@@ -17,6 +17,7 @@ from django import template
 from django.utils import encoding
 from django.views import generic
 from osprofiler import profiler
+from django.urls import reverse
 
 import horizon
 from horizon import exceptions
