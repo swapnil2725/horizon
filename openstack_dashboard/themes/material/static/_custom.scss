@@ -461,11 +461,9 @@ a:focus {
     background-color: #00b39b;
 }
 .audio, canvas, progress, video {
-    display: inline-block;
-    vertical-align: baseline;
-    width: 2822px;
-    height: 1077px;
-    margin-left: -1120px;
-    margin-top: -12px;
-    margin-bottom: -890px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
