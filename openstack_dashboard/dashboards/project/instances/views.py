@@ -182,9 +182,7 @@ class IndexView(tables.PagedTableMixin, tables.DataTableView):
         return instances
 
     def _populate_image_info(self, instance, image_dict, volume_dict):
-        if (hasattr(boot_volume, "volume_image_metadata") and
-            boot_volume.volume_image_metadata['image_id'] in
-            image_dict):
+        if not hasattr(instance, 'image'):
             return
         # Instance from image returns dict
         if isinstance(instance.image, dict):
